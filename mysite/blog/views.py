@@ -29,6 +29,7 @@ class PostListView(ListView):
 
 class PostDetailView(DetailView):
     model=Post
+            
     
 
 class CreatePostView(LoginRequiredMixin,CreateView):
